@@ -28,7 +28,7 @@ metadata:
 spec:
   selector:
     name: kctech
-  type: LoadBalancer
+  type: NodePort
   ports:
   - nodePort: 31000
     port: 8080
